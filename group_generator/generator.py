@@ -22,10 +22,9 @@ def randomly_pair(IDs: List[str]) -> List[List[str]]:
     pairs = [list(x) for x in zip(cpy[::2], cpy[1::2])]
 
     if len(IDs) % 2 != 0:
-        pairs[0].append(IDs[-1])
+        pairs[0].append(cpy[-1])
 
     return pairs
-
 
 
 def are_valid_pairings(pairs: List[List[str]], students: Dict[str, Set[str]]) -> bool:

@@ -1,6 +1,6 @@
 {
     "adam": ["david"],
-    "david": ["joe"],
-    "bob": ["adam"],
-    "joe": ["adam", "david"]
+    "david": ["adam"],
+    "bob": [],
+    "joe": []
 }
