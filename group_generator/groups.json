@@ -1,0 +1,6 @@
+{
+    "adam": ["david"],
+    "david": ["joe"],
+    "bob": ["adam"],
+    "joe": ["adam", "david"]
+}
