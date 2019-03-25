@@ -19,9 +19,10 @@ Now, go to the /group_generator/groups.json and edit the file according to any p
 ```json
 {
     "adam": ["david"],
-    "david": ["joe"],
-    "bob": ["adam"],
-    "joe": ["adam", "david"],
+    "david": ["adam", "joe"],
+    "bob": [],
+    "joe": ["david"],
+    "sam": [],
 }
 ```
 
